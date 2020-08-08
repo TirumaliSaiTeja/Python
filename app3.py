@@ -1,12 +1,21 @@
 # Building a car
 
 command = ""
-while command.lower()!= "quit":
-    command = input("> ")
+started = False
+while command!= "quit":
+    command = input("> ").lower()
     if command == "start":
-        print("Start the game")
+        if started:
+            print('Car is already started!')
+        else:
+            started = True
+            print("Start the game")
     elif command == "stop":
-        print("Stop the game")
+        if not started:
+            print('Car is already stopped!')
+        else:
+            started = False
+            print("Stop the game")
     elif command == "help":
         print("""
 start
