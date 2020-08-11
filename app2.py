@@ -90,6 +90,120 @@
 
 # tuples- this is immutable
 
+# Dictionaries- can store key value pairs
+
+# customers = {
+#     'name': 'john',
+#     'age': 26,
+#     'is_verified': True
+# }
+#
+# customers['is_alive'] = True
+#
+# print(customers['is_alive'])
+
+# Converting number into string
+
+# phone = input('Phone: ')
+#
+# character = {
+#     '1' : 'One',
+#     '2' : 'Two',
+#     '3' : 'Three',
+#     '4' : 'Four'
+# }
+# output = ''
+# for ch in phone:
+#
+#     output+=character.get(ch) + ' '
+# print(output)
+
+
+# Emoji Convertor
+
+# message = input('>')
+# words = message.split(' ')
+# emojis = {
+#     ':)' : '😀',
+#     ':(' : '🙁'
+# }
+# output = ""
+# for word in words:
+#     output+= emojis.get(word, word) + " "
+# print(output)
+
+# Functions
+
+# Exceptions- it is a kind of error that crashes our program
+
+# try:
+#     age = int(input("What is ur age? "))
+#     print(age)
+# except ValueError:
+#     print("Invalid input")
+
+# Classes
+
+# We use classes to define new types, these types can have
+# methods that we define in the body of the class and they can
+# also have attributes that we can set anywhere in our programs
+
+
+# class Point:
+#     def move(self):
+#         print('move')
+#     def draw(self):
+#         print('draw')
+#
+# result = Point()
+# result.x = 100
+# print(result.x)
+
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#     def talk(self):
+#         print('yes')
+#
+# result = Person('sai')
+# print(result.name)
+# result.talk()
+
+# inheritance- it is a mechanism of reusing the code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
